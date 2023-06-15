@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td>col 1</td>
+            <td>col 2</td>
+            <td colspan="3">col 3</td>
+        </tr>
+        <tr>
+            <td>col 1</td>
+            <td colspan="4">
+                <table border="1">
+                    <tr>
+                        <td>nested 1</td>
+                        <td>nested 2</td>
+                        <td>nested 3</td>
+                    </tr>
+                    <tr>
+                        <td>nested 1</td>
+                        <td colspan="2">nested 2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">nested 1</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>col 1</td>
+            <td>col 2</td>
+            <td>col 3</td>
+            <td>col 4</td>
+            <td>col 5</td>
+        </tr>
+    </table>
+</body>
+</html>

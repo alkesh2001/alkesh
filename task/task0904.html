@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{box-sizing: border-box;}
+        /* body{
+            background: linear-gradient(rgb(183, 223, 126) rgb(183, 99, 197));
+        } */
+         .a{
+            height: 200px;
+            width: 200px;
+            margin: 200px auto;
+            background-color: gray;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: transparent;
+         }
+
+         .b{
+            height: 200px;
+            width: 200px;
+            border: 10px solid transparent;
+            background-color: transparent;
+            position: absolute;
+            /* border: transparent; */
+            border-top: 8px solid rgb(86, 187, 187);
+            border-radius: 50%;
+            animation: a  1s infinite;
+         }
+         .c{
+            height: 150px;
+            width: 150px;
+            border: 10px solid transparent;
+            background-color: transparent;
+            position: absolute;
+            /* border: transparent; */
+            border-top: 8px solid rgb(187, 247, 97);
+            border-radius: 50%;
+            animation: b  1s infinite;
+         }
+         @keyframes a
+         {
+          from{ transform:rotate(0deg) ;
+          }
+          to{
+            transform: rotate(360deg);
+          }
+         }
+         @keyframes b
+         {
+          from{ transform:rotate(360deg) ;
+          }
+          to{
+            transform: rotate(0deg);
+          }
+         }
+                
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div class="b"></div>
+        <div class="c"> </div>
+    </div>
+</body>
+</html>

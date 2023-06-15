@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 0806</title>
+    <style>
+        * { box-sizing: border-box;
+            margin: 0;
+        }
+
+        ul {
+            background: rgb(0, 0, 0);
+            padding: 20px 0px;
+            text-align: center;
+            word-spacing: 50px;  
+        }
+
+        li {
+            display: inline;
+            font-size: 22px;
+            position: relative;
+            /* padding-left:40px; */
+        }
+        li::after{
+            content: "";
+            height: 6px;
+            width:0px;
+            top: 100%;
+            left: 0;
+            background: aqua;
+            position: absolute;
+            transition: 1s;
+            }
+
+            a{
+                
+                text-decoration: none;
+                color: aqua;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+        }
+        li:hover::after{
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li> <a href="">home</a></li>
+        <li><a href="">service</a></li>
+        <li><a href="">product</a> </li>
+        <li><a href="">about</a> </li>
+    </ul>
+    
+    
+</body>
+
+</html>
