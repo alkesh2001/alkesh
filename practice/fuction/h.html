@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ 
+       .add 
+       {
+         color: red;
+       }
+          
+    </style>
+</head>
+<body>
+     <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum culpa, tempore repellendus dolor iste sit libero, exercitationem quasi mollitia nulla in at voluptatem est adipisci. Molestias soluta in quia reiciendis.</p>
+
+     <button onclick="change()">change</button>
+     <button onclick="remove()">remove</button>
+     <button onclick="addremove()">add remove</button>
+     
+     <script>
+       
+       var a = document.getElementById('p1')
+       
+        function change()
+        {
+        //    a.style.color="red";  
+            // a.className="add";
+            a.classList.add('add');
+        }
+        function remove()
+        {
+            a.className="";
+        }
+        function addremove()
+        {
+
+          if(a.style.color == "black")
+          {
+            a.style.color = "red"
+          }
+          else
+          {
+            a.style.color = "black"
+          }
+        
+
+
+        }
+
+     </script>
+</body>
+</html>

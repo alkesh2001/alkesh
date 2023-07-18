@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h"></h1>
+
+
+    <script>
+
+         h1_tag = document.getElementById('h')
+
+          x=0;
+          function count()
+          {
+            h1_tag.innerHTML = ++x ;
+            if(x==650)
+            {
+                clearInterval(a)
+            }
+          }
+         
+         a = setInterval(" count()",10)
+    </script>
+</body>
+</html>

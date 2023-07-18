@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+    font-family: "Roboto", Sans-serif;
+}
+.header{
+    background:linear-gradient(rgba(0 ,78, 116,0.6),rgba(0 ,78, 116,0.6)), url(/img/wpresidece-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    height: 700px;
+}
+
+.social {
+   display: flex;
+   border: 1px solid rgb(183, 183, 183);
+    /* background-color: blue; */
+}
+.social ul li{
+    padding-left: 70px;
+    
+}
+a{
+    /* border: 1px solid white; */
+  color: rgb(255, 255, 255);
+  padding:5px 15px 6px 11px;
+  line-height: 40px;
+  width: auto;
+  text-decoration: none;
+  list-style: none;
+}
+i{
+    color: rgb(255, 255, 255);
+}
+.info
+{
+padding-left: 390px;
+}
+.nav{
+    display: flex;
+}
+.logo{
+  padding-left:50px ;
+  padding-top: 35px;
+}
+
+.logo img{
+    height: 47px;
+    width: 160px;
+}
+
+.nav div ul li 
+{
+    display:inline;
+    align-items: center;
+    margin: 0;
+    padding-left: 0;
+    
+}
+.nav div ul li a{
+    padding: 0;
+}
+.about{
+    padding-top: 28px;
+    padding-left: 100px;
+    word-spacing: 31px;
+    position: relative;
+}
+.about ul li a{
+    color: white;
+}
+
+ .underabout1
+{
+    background-color: gray;
+    position: absolute;
+    top: 100%;
+    left: 15%;
+    width: 150px;
+    list-style-type: none;
+    display: none;
+}
+.about1 .home:hover .underabout1
+{
+    display: block;
+} 
+/* .underabout2
+{
+    background-color: gray;
+    position: absolute;
+    top: 100%;
+    left: 15%;
+    width: 150px;
+    list-style-type: none;
+    display: none;
+}
+.about:hover .underabout2
+{
+    display: block;
+} */
+
+
+.about1 
+{ 
+    padding-top: 28px;
+    padding-left: 125px;
+    font-size: 17px;
+}
+.about1 ul li a{
+    color: white;
+}
+.about1 ul li a i{
+    color: white;
+}
+
+.AddListing{
+   /* border: 2px solid black; */
+   margin: 20px;
+   font-size: 15px;
+   background-color: #0073e1;
+}
+.about1 ul li
+{
+    padding-left: 10px;
+  padding: 10px 14px 10px 0px;
+  border-radius: 5px;
+
+}
+.AddListing a { 
+    margin-left: 14px;
+}
+.AddListing:hover{
+    background-color: black;
+    color: white;
+}
+
+.nav2 
+{
+
+     height: 90px;
+     background-color: #000000;
+     /* border: 2px solid; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.subnav1 
+{     
+    transform: translate(-530px,0px );
+}
+.subnav3
+{   
+    transform: translate(530px, 0px );
+}
+.subnav1 i,.subnav3 i{
+    color: white;
+}
+
+
+.main1,.main2,.main3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main1
+{ 
+    padding-top: 170px;
+    font-size: 45px;
+    color: white;
+}
+.main2
+{
+    padding-top: 20px;
+    font-size: 17px;
+    color: white;
+
+}
+.main3
+{
+    padding-top: 5px;
+    font-size: 17px;
+    color: white;
+}
+
+.inqury
+{
+   display: flex;
+   justify-content: center;
+   transform:translate(0px , 180px) ;
+  position: relative;
+
+}
+.rentals,.sales,.invest{
+
+    margin-right: 5px;
+}
+
+.inqury button
+{   
+    padding: 15px 30px 15px 30px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: none;
+    background-color: #0073e1;
+    color: white;
+}
+/* .rentalunder{
+   
+    border: 2px solid;
+    background-color: blue;
+    height: 100px;
+    width: 80%;
+    transform: translate(0px , 180px);
+    
+} */
+
+.rental{
+    display: none;
+    position: absolute;
+    height: 100px;
+    top: 47px;
+    left: 100px;
+    border: 2ps solid;
+    background-color:#ffffff;
+    padding: 10px 0px 10px 0px;
+}
+.rental a{
+    color: black;
+    text-decoration: none;
+    margin-left: 120px;
+    
+}
+#Property{
+    position: absolute;
+    top: 46px;
+    left: 129px;
+    padding: 8px 35px 8px 14px;
+    border: 1px solid rgb(222, 222, 222) ;
+    /* background-color: #0073e1; */
+    border-radius: 5px ;
+}
+.rental ul li select option{
+    height: 200px;
+    border: 2px solid;
+    font-size: 16px;
+     padding: 10px;
+}
+.rentals:hover .rental{
+    display: block;
+}

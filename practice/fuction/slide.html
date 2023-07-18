@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="/himalya.jpg" alt="" id="img1" style="height: 410px; width: 100%;" >
+
+
+     
+    <script>
+
+            a = document.getElementById('img1');
+            
+            function change()
+            {   
+                if(a.src.match("/himalya.jpg") )
+                {
+                   a.src="/chicago.jpg"
+                }
+                else
+                {
+                    a.src="/himalya.jpg"
+                }
+                setTimeout("change()",1500)
+                // setTimeout("change()",700)
+
+                
+            }
+ 
+            // setInterval("change()",700)
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="" alt="" style="height: 150px; width: 150px;" id="i1">
+
+    <img src="/chicago.jpg" alt="" style="height: 150px; width: 150px;" id="i2">
+
+    <img src="/chicago.jpg" alt="" style="height: 150px; width: 150px;" id="i3">
+    
+    <button onclick="t()">img1</button>
+    <button onclick="change()">img2</button>
+    <button onclick="chan()">img3</button>
+        
+    <script>
+  
+     var a = document.getElementById('i1')
+     var b = document.getElementById('i2')
+     var c = document.getElementById('i3')
+
+     function t()
+     {
+         a.src="/chicago.jpg"
+     }
+
+     function change()
+     {
+        b.src="/himalya.jpg"
+     }
+
+     function chan()
+     {
+         if(c.src.match("/chicago.jpg") )
+         {
+            c.src="/himalya.jpg"
+         }
+         else
+         {
+            c.src="/chicago.jpg"
+         }
+     }
+
+    </script>
+
+</body>
+</html>

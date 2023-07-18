@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+    margin: 0;
+
+}
+
+body
+{
+    font-size: 20px;
+    width: auto;
+    font-family: sans-serif;
+    background:  #004274;
+    height: 980px;
+    clip-path: (100% 100%,100% 100% ,100% 100%, 100% 100%);
+}
+
+.header{
+    background: url(/img/chicago.jpg);
+    height: 520px;
+ }
+
+.nav
+{ 
+   
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav .logo 
+{
+    height: 50px;
+    width: 30%;
+}
+.logo
+{
+  height: 40px;
+  width: 60px;
+  padding-left: 85px;
+  padding-top: 33px;
+}
+.nav .link
+{   
+    height: 50px;
+    width: 70%;
+    display: inline;
+    position: relative;
+}
+/* .sublink
+{
+ background-color: lightblue;
+ top:100%;
+ left: 0;
+ width: 80px;
+ position: absolute;
+padding:0px;
+
+ /* list-style-type: none; */
+ /* display: none; */
+/* } */ 
+.link ul li
+{
+     display: inline-block;
+     padding-top: 32px;
+     padding-left: 30px;
+
+}
+a{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.user-circle
+{
+    font-size: 22px;
+    padding-left: 25px;
+}
+.list
+{
+   border: 1px solid black;  
+   padding: 12px;
+   border-radius: 5px;
+}
+.list:hover
+{
+  background-color: #00aeff;
+  border:#00aeff ;
+}
+
+.info
+{
+  width: 57%;
+  padding-top: 190px;
+  margin: auto;
+  text-align: center;
+  /* background-color: lightblue; */
+ color: rgb(0, 0, 0);
+
+}
+.p1
+{
+    font-size: 45px;
+    line-height: 58px;
+}
+.p2
+{
+    font-size: 25px;
+    line-height: 38px;
+}
+
+.service
+{  
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 220px auto;
+    /* padding-top: 260px; */
+    background-image: linear-gradient( rgba(255, 255, 255, 0.1) 0%, rgba(242, 41, 91, 0) 100%);
+    
+    
+}
+
+.service .service1
+{
+   height: 235px;
+   width: 33.33%;
+   border: 1px solid  #004274;
+}
+
+.service .service1 .heading
+{
+  padding: 45px;
+  font-size: 18px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.contant
+{ 
+    color: rgb(233, 234, 235);
+    margin: 0px 40px;
+    font-size: 17px;   
+  text-align: center;
+}
+
+.learnmore 
+{   
+    text-align: center;
+    padding: 10px;
+}
+.learnmore a
+{   
+    color: #00aeef;
+    font-size: 17px;
+}
