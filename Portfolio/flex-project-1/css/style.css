@@ -1,0 +1,993 @@
+
+ *{ 
+      font-family: 'Poppins', sans-serif; 
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      /* border: 1px solid; */
+    }
+.header .info
+{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 15px 9px;
+      border-bottom: 1px solid rgb(211, 210, 210);
+}
+.header .info .contact
+{   
+      width: 33.33%;
+      padding: 15px 0;
+ }
+ .header .info .contact .number .call
+  {
+      display: flex;
+      text-align: right;
+  }
+
+
+  .header .info .number #fa-flag
+  {
+      padding: 20px 10px;
+  }
+
+.header .info .logo
+{  
+       width: 33.33%;
+       text-align: center;
+       font-weight: bold;
+       
+}
+.header .info .logo .mainlogo
+{   
+      font-family: 'Basic';
+      font-size: 35px;
+}
+
+  .header .info .time
+  {   
+      width: 33.33%;
+      padding: 20px 0;       
+  }
+  .header .info .time .open 
+  {
+      display: flex;
+  }
+
+  .header .info .time .open .icon
+  {
+      padding: 5px 20px;
+  }
+
+.header .navbar
+{
+      word-spacing: 25px;
+      text-align: center;
+      padding:20px 10px;
+}
+
+ .navbar ul li
+ {
+      display: inline;
+      padding: 20px 10px;
+      text-align: center;
+ }
+ .navbar ul li a
+ {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+ }
+.undernav 
+{
+      background-color: rgb(0, 0, 0);
+       border: 2px solid;
+      padding: 10px 10px;
+      color: white;
+      display: none;
+}
+.header .view-our-work 
+{  
+      /* background: url(../img/bg_2.jpg.webp); */
+      background: url(../img/bg_2.jpg.png);
+      background-size: cover; 
+       display: flex;
+      flex-wrap: wrap;
+      height: 550px;
+      justify-content: right;
+      align-items: center;
+      padding: 0 40px;
+      animation: view-our-work 4s infinite;
+}
+
+.main h1
+{
+      margin: 10px 0px;
+}
+.main p
+{
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-size: 18px;
+    
+}
+.main a
+{
+      margin-top: 50px;
+      line-height: 80px;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 25px;
+      text-decoration: none;
+      background-color: #a8c337;
+      border: none;
+      color: white;
+}
+
+@keyframes view-our-work
+   
+{
+     10%{
+           background:url(../img/bg_2.jpg.png) ;
+           background-size: cover;
+        }       
+     30%{
+          background:url(../img/bg_2.jpg.png) ;
+          background-size: cover;
+        }  
+        40%{
+          background: url(../img/bg_3.jpg.webp);
+          background-size: cover;
+          background-position: center;
+        }
+        60%{
+          background: url(../img/bg_3.jpg.webp);
+          background-size: cover;
+          background-position: center;
+        }
+        70%{
+          background:url(../img/bg_2.jpg.png) ;
+          background-size: cover;
+       }       
+    100%{
+         background:url(../img/bg_2.jpg.png) ;
+         background-size: cover;
+       }
+} 
+ 
+
+
+.header .dentista-info
+{
+      display: flex;
+      flex-wrap: wrap;
+      width: 90%;
+       margin: auto;   
+}
+
+.header .dentista-info .doctor-img
+{  
+      background: url(../img/about.jpg.webp);
+      background-size: cover;
+      background-position: center;
+      width: 40%;
+   
+}
+.header .dentista-info .founder
+{ 
+      width: 60%;
+}
+.dentista-info .founder .headline
+{
+      width: 73%;
+      margin-top: 50px;
+      margin-left: 70px;
+}
+.dentista-info .founder .headline p
+{
+       font-size: 32px;
+      margin-top: 20px;
+}
+.dentista-info .founder .headline::first-line
+{
+     font-size: 18px;
+}
+
+.dentista-info .founder .headline-2 
+{
+      width: 80%;
+      margin-top: 40px;
+      margin-left: 70px;
+}
+.dentista-info .founder .headline-2 p
+{
+      margin-top: 50px
+}
+
+.dentista-info .founder .dr
+{
+      display: flex;
+      width: 50%;
+      margin: 50px 70px;
+}
+.dentista-info .founder .dr .doc-img
+{
+      background: url(../img/doc-1.jpg.webp);
+      height: 80px;
+      width: 80px;
+      background-size: contain ;
+      background-position: center;
+      border-radius: 50%;
+      border: none;
+}
+.dentista-info .founder .dr .doc-name 
+{
+       margin-top: 12px;
+      margin-left: 25px;
+}
+.dentista-info .founder .dr .doc-name p 
+{
+      font-size: 17px;
+}
+.header .appointment
+{
+      display: flex;
+      flex-wrap: wrap;
+      border: none;
+      background-color: #24a1cd;
+      color: white;
+}
+
+.appointment .dental, .find-Doctor
+{   
+      width: 25%;
+      padding: 40px 10px;
+      text-align: center;
+       background-color: #46b7de;
+      border: none;
+}
+.appointment .dental h3, .find-Doctor h3 
+{
+      margin-bottom:25px;  
+}
+.appointment .dental p, .find-Doctor p
+{
+      font-size:17px;
+      padding: 0px 40px;
+      margin-bottom: 25px;
+}
+.appointment .dental a, .find-Doctor a
+{
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      font-size:12px;   
+      border: none; 
+}
+.appointment .free-Consultation
+{  
+      width: 50%;
+      text-align: center;
+      border: none;
+}
+.appointment .free-Consultation p
+{   
+       padding-top: 30px;
+       font-size: 25px;    
+}
+.appointment .input
+{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin-top: 10px;
+     background-color: #24a1cd;
+}
+.appointment .input div
+{   
+      margin-top: 20px;
+}
+.appointment .input div input
+{    
+      border: none;
+      border-bottom: 1px solid rgb(199, 199, 199);
+      color: white;
+      background-color: #24a1cd;
+      padding: 8px 15px;
+}
+.appointment .input div select
+{    
+      border: none;
+      border-bottom: 1px solid rgb(199, 199, 199);
+      color: white;
+      background-color: #24a1cd;
+      padding: 7px 50px;  
+}
+ #div-date input
+{   
+      padding: 7px 30px;
+}
+.appointment  .book-now
+{ 
+      padding: 7px 45px;
+      background-color: #a8c337;
+      border-radius: 25px;
+      border: none;
+} 
+.appointment .book-now a
+{
+      font-size: 17px;
+      text-decoration: none;
+      color: white;
+      border: none;
+}
+
+.appointment .find-Doctor
+{  
+     width: 25%;
+}
+
+   /* section start */
+
+.section .service
+{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    
+}
+
+
+.section .service .services
+{  
+      margin-top: 100px;
+      margin-bottom: 50px;
+      text-align: center;
+      width: 55%;
+     
+}
+.section .service .services p,
+.section .service .services h1
+{   
+      margin-top: 25px;
+}
+.section .service .medical 
+{  
+       display: flex;
+       flex-wrap: wrap;
+       width: 100%;
+       padding-bottom: 50px;
+}
+
+.section .service .medical .medical-info 
+{ 
+       margin-left: 50px;
+       width: 20%;
+       text-align: center;
+}
+.section .service .medical .medical-info .tooth
+{
+      padding: 20px 0px;
+      margin-top: 40px;
+}
+.section .service .medical .medical-info .about-tooth h2
+{  
+      margin-top: 30px;
+      margin-bottom: 15px;
+}
+.section .service .medical .medical-info .about-tooth p
+{ 
+      line-height: 27px;
+      padding: 0px 0px ;
+      margin-bottom: 30px;
+}
+
+.section .about
+{   
+      background: url(../img/bg_3.jpg.webp);
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-wrap: wrap;
+      display: flex;
+      height:350px;
+      align-items: center;
+       justify-content: left;
+    
+}
+.section .about .about-doctor
+{    
+      margin-left: 70px;
+      width: 45%;
+}
+.section .about .about-doctor p
+{
+      margin-top: 30px;
+      line-height: 30px;
+}
+
+.section .doctors
+{    
+      display: flex;
+      flex-wrap: wrap;
+       justify-content: center;
+}
+.section .doctors .qualified-doctors 
+{
+       margin-top: 100px;
+       text-align: center;
+      width: 65%;
+    
+}
+.section .doctors .qualified-doctors::first-line
+{  
+      letter-spacing: 3px;
+}
+.section .doctors .qualified-doctors p
+{  
+      font-size: 15px;
+      margin-top: 25px;
+}
+.section .doctors .qualified-doctors h1
+{   
+      margin-top: 25px;
+}
+.section .doctors .docprofile
+{ 
+      margin-top: 50px;
+}
+.section .doctors .docprofile .profile
+{    
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+}
+.section .doctors .docprofile .profile .docp,.docpr,.docpro ,.docprof
+{
+      width: 22%;
+      margin-left: 35px;
+}
+.section .doctors .docprofile .profile .docp .docimg
+{
+      background: url(../img/doc-1.jpg.webp);
+      background-position:center ;
+      background-size: cover;
+      height: 300px; 
+}
+ .docimg:hover
+{     
+      transform: scale(1.1);
+      color: #24a1cd ;
+}
+
+
+.section .doctors .docprofile .profile .docpr .docimg
+{
+     background: url(../img/doc-2.jpg.webp);
+     background-position:center ;
+     background-size: cover;
+     height: 300px; 
+}
+.section .doctors .docprofile .profile .docpro .docimg
+{
+     background: url(../img/doc-3.jpg.webp);
+     background-position:center ;
+     background-size: cover;
+     height: 300px; 
+}
+.section .doctors .docprofile .profile .docprof .docimg
+{
+     background: url(../img/doc-4.jpg.webp);
+     background-position:center ;
+     background-size: cover;
+     height: 300px; 
+}
+
+.section .doctors .docprofile .profile .docpro .docinfo ,.docp,.docpr,.docpro ,.docprof ,.docinfo
+{  
+       padding-top: 25px;
+      line-height: 25px;
+      text-align: center;
+} 
+.section .doctors .docprofile .profile .docinfo h3:hover
+{
+     color: #24a1cd;
+}
+
+.section .doctors .docprofile .profile .docp .docimg i ,.docpr .docimg i,.docpro .docimg i,.docprof .docimg i
+{
+    margin-top: 270px;
+    padding: 0px 10px;
+} 
+
+
+.section .testimonials 
+{   
+      background-color: #fafafa;
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 100px;
+}
+.section .testimonials .testi
+{     
+      margin-top: 80px;
+      text-align: center;
+      width:  80%;
+}
+.section .testimonials .test p
+{     
+      font-size: 16px;
+      letter-spacing: 2px;
+      margin: 15px 0px;
+}
+.section .testimonials .slide
+{
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0px 10px;
+      margin-bottom: 100px;
+}
+.section .testimonials .slide .person
+{    
+      margin-top: 100px;
+      width: 33.33%;
+}
+.section .testimonials .slide .person .perent
+{  
+      display: flex;
+      flex-wrap: wrap;
+      width:100% ;
+}
+.section .testimonials .slide .person .perent .d-info
+{    
+      width: 35%;
+}
+.section .testimonials .slide .person .perent .d-info img
+{  
+      border: none;
+      margin-top: 20px;
+      margin-left: 5px;
+      border-radius: 50%;
+      height: 125px;
+      width: 125px;
+}
+
+.section .testimonials .slide .person .perent .d-about
+{
+      width: 65%;
+}
+.section .testimonials .slide .person .perent .d-about p
+{
+      font: 15px;
+}
+.section .testimonials .slide .person .perent .d-about h3
+{
+      margin-top: 20px;
+}
+.section .testimonials .slide .person .perent .d-about h5
+{
+      margin-top: 10px;
+      color: #46b7de;
+     
+}
+
+.section .free-care
+{    
+       padding-top:  70px ;
+      padding-bottom: 70px;
+      background-color:#46b7de ;
+     
+}
+
+.section .free-care .care
+{   
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      margin: auto;
+      align-items: center;
+}
+.section .free-care .care .provide
+{   
+      width: 60%;
+      padding: 0px 20px;
+}
+.section .free-care .care .free
+{    
+      width: 40%;
+      text-align: center;
+      margin: 20px 0px;
+}
+.section .free-care .care .provide h1,
+.section .free-care .care .provide  p
+{   
+      margin: 20px 0px;
+      color: white;
+}
+
+.section .free-care .care .free a
+{
+      padding: 14px 20px;
+      font-size: 17px;
+      border-radius: 50px;
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      background-color: #a8c337;
+}
+
+
+.section .pricing
+{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; 
+}
+
+.section .pricing .ourpricing
+{
+      text-align: center;
+      width: 65%;  
+      margin-top: 100px;
+}
+
+.section .pricing .qualified-doctors::first-line
+{  
+      letter-spacing: 3px;
+}
+.section .pricing .ourpricing p
+{  
+      font-size: 15px;
+      margin-top: 25px;
+}
+.section .pricing .ourpricing h1
+{   
+      margin-top: 25px;
+}
+
+.section .pricing .basic
+{ 
+      margin-top: 90px;
+      width: 100%;
+}
+.section .pricing .basic .standard
+{    
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      width: 100%;
+      margin-bottom: 50px;
+}
+.section .pricing .basic .standard .diagnostic,
+.section .pricing .basic .standard .implants,
+.section .pricing .basic .standard .premium,
+.section .pricing .basic .standard .platinum
+{
+      width: 21%;
+      text-align: center;
+}
+.section .pricing .basic .standard .diagnostic h1:hover,
+.section .pricing .basic .standard .implants h1:hover,
+.section .pricing .basic .standard .premium h1:hover,
+.section .pricing .basic .standard .platinum h1:hover
+{
+     color: #a8c337;
+     transition: 1s;
+}
+.section .pricing .basic .standard .diagnostic .basicboder,
+.section .pricing .basic .standard .implants .basicboder,
+.section .pricing .basic .standard .premium .basicboder,
+.section .pricing .basic .standard .platinum .basicboder
+{
+      border: 1px solid #46b7de;
+      padding-bottom: 60px;
+
+}
+
+.section .pricing .basic .standard .diagnostic h3,
+.section .pricing .basic .standard .diagnostic h1,
+.section .pricing .basic .standard .implants h3,
+.section .pricing .basic .standard .implants h1,
+.section .pricing .basic .standard .premium h3,
+.section .pricing .basic .standard .premium h1,
+.section .pricing .basic .standard .platinum h3,
+.section .pricing .basic .standard .platinum h1
+{  
+     
+      margin: 30px 0px ;
+}
+.section .pricing .basic .standard .diagnostic h1,
+.section .pricing .basic .standard .implants h1,
+.section .pricing .basic .standard .premium h1,
+.section .pricing .basic .standard .platinum h1
+{
+      color: #46b7de;
+}
+.section .pricing .basic .standard .diagnostic p,
+.section .pricing .basic .standard .implants p,
+.section .pricing .basic .standard .premium p,
+.section .pricing .basic .standard .platinum p
+{  
+      padding: 10px 0px ;
+}
+.section .pricing .basic .standard .diagnostic .basicboder .textcolor,
+.section .pricing .basic .standard .implants .basicboder .textcolor,
+.section .pricing .basic .standard .premium .basicboder .textcolor,
+.section .pricing .basic .standard .platinum  .basicboder .textcolor
+{
+      background-color: #f7f7f7;
+}
+
+
+.section .pricing .basic .standard .diagnostic .getoffer,
+.section .pricing .basic .standard .implants .getoffer,
+.section .pricing .basic .standard  .premium .getoffer,
+.section .pricing .basic .standard .platinum .getoffer
+{     
+       margin-top: -15px;
+  
+}
+.section .pricing .basic .standard .diagnostic .getoffer a,
+.section .pricing .basic .standard .implants .getoffer a,
+.section .pricing .basic .standard .premium .getoffer a,
+.section .pricing .basic .standard .platinum .getoffer a
+{    
+       border: none;
+       border-radius: 50px;
+        padding: 18px 30px ;
+       font-size: 17px;
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      background-color: #46b7de;
+}
+
+.section .pricing .basic .standard .diagnostic .getoffer a:hover,
+.section .pricing .basic .standard .implants .getoffer a:hover,
+.section .pricing .basic .standard .premium .getoffer a:hover,
+.section .pricing .basic .standard .platinum .getoffer a:hover
+{    
+     transition: 1s;
+      background-color: #a8c337;
+}
+
+.section .blog .recent
+{
+      width: 60%;
+      margin: 100px auto;
+      text-align: center;   
+}
+.section .blog .recent::first-line
+{  
+      letter-spacing: 3px;
+}
+.section .blog .recent p
+{  
+      font-size: 15px;
+      margin-top: 25px;
+}
+.section .blog .recent h1
+{   
+      margin-top: 25px;
+}
+.section .blog .aboutblog .sleep
+{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      width: 100%;
+      margin-bottom: 100px;
+}
+.section .blog .aboutblog .sleep .sleeping 
+{
+      width: 30%;
+}
+.section .blog .aboutblog .sleep .sleeping .doimg
+{
+      background: url(../img/image_1.jpg.webp);
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+}
+
+.section .blog .aboutblog .sleep .sleeping .doimg .td p
+{ 
+        margin-top: 10px;
+      font-size: 12px;
+}
+.section .blog .aboutblog .sleep .sleeping .word
+{
+     margin-top: 30px;
+}
+.section .blog .aboutblog .sleep .sleeping .word h3
+{
+      padding-bottom: 15px;
+}
+.section .blog .aboutblog .sleep .sleeping .word h3,
+.section .blog .aboutblog .sleep .sleeping .word p
+{
+      margin: 0px 20px;
+}
+.section .blog .aboutblog .sleep .sleeping .word .read
+{   
+      margin: 30px  30px;
+}
+.section .blog .aboutblog .sleep .sleeping .word .read .admin
+{
+       padding: 10px 20px;
+       font-size: 16px;
+       text-decoration: none;
+       background-color:#46b7de ;
+       color: rgb(255, 255, 255);
+       border-radius: 25px;
+       border: none;
+}
+.section .blog .aboutblog .sleep .sleeping .word .read a
+{
+      padding-left: 120px;
+      color:#46b7de; 
+      text-decoration: none;
+      font-size: 16px;
+}
+.section .blog .aboutblog .sleep .sleeping .word .read .admin:hover
+{
+      background: white;
+      color: #24a1cd;
+      font-size: 16px;
+      border: 1px solid #24a1cd;
+      
+}
+.section .blog .aboutblog .sleep .sleeping .word .read .chat
+{
+      padding-left: 150px;
+}
+
+.section .footer
+{ 
+      display: flex;
+      flex-wrap: wrap;
+      background: #46b7de;
+      padding-bottom: 30px; 
+}
+
+.section .footer .dentista,.links,.recentblog,.openinghours
+{     
+      width: 25%;
+      padding-left: 70px;
+}
+
+.section .footer .dentista .far,.links h3,.recentblog h3,.openinghours h3
+{
+      margin-top: 90px;
+}
+
+.section .footer .dentista #behind
+{
+     margin-top: 50px;
+     font-size: 15px
+}
+.section .footer .dentista #fake
+{    
+      margin-top: 30px;
+      font-size: 14px;
+}
+.section .footer .dentista #co-us
+{
+     margin-top: 20px;
+     font-size: 14px;
+}
+.section .footer .dentista #com
+{     
+      margin-top: 30px;
+      font-size: 14px;
+}
+
+#twitter i
+{  
+      margin: 50px 0px;
+      padding:0px 18px ;
+}
+
+.section .footer .dentista #com i,#co-us i ,#fake i ,#i i
+{
+      margin-right: 15px;
+}
+.section .footer .dentista h3 ,.section .footer .links #neurolgy
+{
+      margin-top: 50px;
+}
+
+
+.section .footer .links h3
+{
+      margin-bottom: 40px;     
+}
+.section .footer .links p 
+{     
+      margin-top: 3px;
+      font-size: 15px
+}
+.section .footer .links p a
+{  
+      text-decoration: none;
+       color: rgba(255, 255, 255, 0.7);
+}
+
+.section .footer .recentblog ,.section .footer .openinghours
+{
+      padding-left: 0;
+}
+.section .footer .recentblog .reperent
+{
+      position: relative;
+}
+.section .footer .recentblog img
+{  
+     margin-top: 50px;
+     height: 80px;
+     width: 80px;
+}
+.section .footer .recentblog .reperent #even
+{    
+      position: absolute;
+      width: 170px;
+      top: 50px;
+      left: 110px;
+}
+.section .footer .recentblog .reperent #fa
+{    
+      color: rgba(255, 255, 255, 0.7);
+      position: absolute;
+      font-size: 12px;
+      top: 155px;
+      left: 110px;
+      padding-right: 90px;
+}
+#reper
+{
+       margin-top: 30px;
+}
+.section .footer h3,.section .footer p
+{
+      color: white;
+}
+.section .footer .openinghours #we
+{
+      margin-top: 40px ;
+      margin-left: 30px;
+}
+.section .footer .openinghours #subscribe
+{
+      margin-top:40px;
+}
+.section .footer .openinghours #email
+{
+      margin-top: 30px;
+      margin-bottom: 20px;
+}
+.section .footer .openinghours #email input
+{
+      padding: 10px 20px;
+      font-size: 18px;
+      text-align: center;
+      background: #5cc2e4;
+      border: none;
+}
+.section .footer .openinghours a
+{     
+      text-decoration: none;
+      padding: 14px 87px;
+      font-size: 16px;
+      text-align: center;
+      background: #a8c337;
+      color: white;
+}
+
+.copyright 
+{
+      width: 100%;
+      text-align: center;
+      font-size: 14px;
+      margin: auto;
+      padding: 50px 50px;
+      color: white;
+      background: #46b7de;
+}

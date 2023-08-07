@@ -1,0 +1,199 @@
+@media(max-width:500px)
+{    
+
+    .header .info .contact
+    { 
+        width: 100%;
+    }
+    .header .info .logo
+    {   
+       
+        width: 100%;
+        order: -1;
+    }
+    .header .info .time
+    {  width: 100%;}
+    
+    .navbar
+    {
+        display: none;
+    }
+
+    .navbar ul li 
+    {
+        display: block;
+    }
+    .undernav 
+    {
+        display: block;
+    }
+    .header .dentista-info
+    {   
+        margin-top: 40px;
+        width: 90%;
+    }
+    .header .dentista-info .doctor-img{
+        height: 400px; 
+        width: 100%;
+    }
+    .dentista-info .founder .headline
+    {
+        margin-left: 15px;
+    }
+    .dentista-info .founder .headline-2 
+    {
+        margin-left: 15px;
+        width: 90%;
+        margin-top:40px;
+    }
+    .dentista-info .founder .headline-2 p
+     {
+        margin-top: 40px
+     }
+    .header .dentista-info .founder
+    {
+       width: 100%;
+    }
+    .dentista-info .founder .dr
+    {  margin-left: 20px;
+        margin-top: 60px;
+       margin-bottom: 60px;
+       width: 60%;
+    }
+
+
+ .appointment .dental
+    {
+        width: 100%;
+    }
+     .appointment .free-Consultation 
+    {   margin-top: 40px;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .appointment .free-Consultation .input div
+    {  margin-top: 15px;
+       width: 90%;
+    }
+    .appointment .free-Consultation .input div input, .appointment .free-Consultation .input div  select 
+    {
+       width: 100%
+    }
+    .appointment .free-Consultation .input2 div,
+    .appointment .free-Consultation .input2 div input,
+     .appointment .free-Consultation .input2 div a
+    { 
+       width: 100%;
+    }
+    .appointment .free-Consultation .input2 div
+    {
+        margin-top: 15px;
+      
+    }
+     
+     .appointment .find-Doctor
+     {
+        width: 100%;
+     }
+     
+     .section .service .services
+     {
+        width: 90%;
+     }
+    .section .service .medical .medical-info
+     {  margin-left: 25px;
+        width: 90%;
+    }
+    .section .about .about-doctor
+      {   margin-left: 15px;
+          width: 85%;
+      }
+      .section .doctors .docprofile .profile .docp,.docpr,.docpro ,.docprof 
+      {
+        width: 85%;
+      }
+      .section .doctors .qualified-doctors 
+       {
+        width: 90%;
+       }
+        
+
+       .section .testimonials .testi
+       {
+        width: 100%;
+       }
+       .section .testimonials .slide .person
+       {
+        width: 100%;
+       }
+        
+       .section .free-care .care .provide
+       {
+         width: 100%;
+       }
+       .section .free-care .care .free
+       {
+        width: 100%;
+        text-align: left;
+        margin-left: 20px;
+       }
+
+       .section .pricing .ourpricing
+       {
+        width: 90%;
+       }
+
+       .section .pricing .basic .standard
+       {
+        margin-bottom: 10px;
+       }
+
+
+         .section .pricing .basic .standard .diagnostic,
+         .section .pricing .basic .standard .implants,
+         .section .pricing .basic .standard .premium,
+         .section .pricing .basic .standard .platinum
+         {
+            width: 90%;
+            padding-bottom: 60px;
+         }
+        
+         .section .blog .recent
+         {
+            width: 90%;
+         }
+         
+         .section .blog .aboutblog .sleep .sleeping 
+         {
+            width: 90%;
+         }
+
+       .section .footer .dentista
+       {
+        width: 100%;
+        background: #46b7de;
+       }
+       .section .footer .links
+       {
+        width: 100%;
+        background: #46b7de;
+       }
+       .section .footer  .recentblog
+       {
+        width: 100%;
+        background: #46b7de;
+        padding: 0px 50px;
+
+       }
+       .section .footer .reperent
+       {
+        width: 100%;
+        background: #46b7de;
+       }
+       .section .footer  .openinghours
+       {
+        width: 100%;
+        background: #46b7de;
+        padding: 0px 50px;
+       }
+}

@@ -1,0 +1,363 @@
+@media(max-width:500px)
+{
+    .header .navbar
+    {
+     grid-template-columns: 1fr;
+     padding: 0px;
+    }
+    .header .navbar p
+    {
+     color: white;
+     padding: 0px 15px;
+     padding-top: 25px;
+     padding-bottom: 25px;
+     font-size: 22px;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 700;
+    }
+    .header .navbar ul li
+    {   
+     display: none;
+    }
+    .header .navbar ul
+    {
+      margin: 0px; 
+      padding-left:0px ;
+    }
+    .header .main-head
+    {
+     padding-top: 60px;
+    }
+    .header .main-head p
+     {     
+       font-size: 41px;
+       font-weight: 700;  
+     }
+    .header .main-head .line,
+    .header .main-head .line1
+    {    
+     width: 21%;
+     height: 1px;
+     border:2px solid white;
+     border-radius: 10px;
+     margin: 8px 15px;
+     margin-left: 90px;
+    }
+    .header .main-head .line1 
+    {
+     margin-left: 15px;
+    }
+    .section .protfolio p
+    {   
+    margin-bottom: 35px;
+    }
+    .section .protfolio .line,
+    .section .protfolio .line1
+   {  
+    width: 25%;
+    margin-left: 95px;
+   }
+   .section .protfolio .line1
+   {
+     margin-left: 15px;
+   }
+   
+   .section .project .grid
+    {
+     width: 100%;
+     margin-bottom: 50px;
+    }
+    .section .project .flex
+    {
+      width: 100%;
+    }
+  
+    .section .about p 
+{  
+     font-size: 45px;
+     font-weight: 800;
+     padding-top: 60px;
+}
+.section .about .line,
+.section .about .line1
+{  
+    width: 18%;
+    margin: 8px 15px;
+    margin-left: 120px;
+   color: white;
+}
+.section .about .line1
+{
+    margin-left: 15px;
+}
+.section .about .under-about p
+{   
+    margin: 0px auto;
+    width: 80%;
+    font-size: 18px;
+    font-weight: 500;
+    /* margin-top: -40px; */
+}
+.section .study .p1
+{   
+     text-align: center;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 45px;
+     font-weight: 800;
+     margin-top: 55px;
+     color: #2c3E50 ;
+}
+.section .study .line,
+.section .study .line1
+{
+    width: 15%;
+    height: 2px;
+    border: 2px solid;
+    border-radius: 10px ;
+    margin: 8px 15px;
+    margin-left: 138px;
+    color: #2c3E50 ;
+}
+.section .study .line1
+{
+    margin-left: 15px;
+}
+
+.section .study .under-study
+{   
+    margin: 0px auto;
+    margin-top: 40px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr ;
+    margin-bottom: 60px;
+
+}
+.section .study .under-study-1,
+.section .study .under-study-2,
+.section .study .under-study-3
+{  
+    border-right: none;
+    border-bottom: 1px solid #c4c9ce ;
+    padding-bottom: 40px;
+}
+.section .study .under-study-3
+{
+    border-bottom: none;
+}
+
+.footer .contact p
+{   
+    font-size: 35px;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+.footer .contact .line,
+.footer .contact .line1
+{
+    width: 22%;
+    margin-left: 108px;
+}
+.footer .contact .line1
+{
+    margin-left: 15px;
+}
+
+.footer .contact .inp
+{  
+    margin: 10px auto;
+    width: 75%;
+    padding: 15px 5px;
+}
+
+.footer .contact .info .se
+{   
+    width: 22%;
+    margin-left: 65px;
+    padding: 12px 25px;
+}
+.footer .social
+{
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.footer .social div
+{  
+    width: 75%;
+}
+.footer .social .under-s1 .location
+{
+    margin-top: 15px;
+    font-size: 18px ;
+}
+.footer .social .under-s1 
+{
+    padding-bottom: 30px;
+}
+.footer .social .under-s2
+{
+    margin-top: -20px;
+}
+.footer .social .under-s1 p
+{ 
+    font-size: 27px ;
+}
+.footer .social .under-s3 .email
+{   
+    font-size: 17px;
+}
+.footer .social .under-s2 p,
+.footer .social .under-s3 p
+{ 
+    font-size: 27px ;
+  margin-top: 50px;
+}
+.footer .social .under-s2 .i
+{
+    width: 100%;
+    margin: 35px 35px;
+}
+.footer .social .under-s3 p
+{
+  margin-top: 30px;
+}
+.footer .social .under-s1 ,
+.footer .social .under-s2 ,
+.footer .social .under-s3 
+{
+   width: 60%;
+    border-bottom: 1px solid #c4c9ce;
+}
+.footer .social .under-s3 
+{
+    
+    border: none;
+}
+
+}
+
+
+/* mobile screen size */
+
+@media(max-width:360px)
+{  
+    .header .navbar p
+    {
+     padding: 0px 20px;
+     padding-top: 25px;
+     padding-bottom: 25px;
+     font-size: 18px;
+    }
+    .header .main-head p
+     {     
+       font-size: 32px;
+     }
+    .header .main-head .line,
+    .header .main-head .line1
+    {    
+     margin-left: 58px;
+    }
+    .header .main-head .line1 
+    {
+     margin-left: 15px;
+    }
+    .section .protfolio p
+    {   
+       margin-bottom: 25px;
+    }
+     .section .protfolio .line,
+     .section .protfolio .line1
+    {  
+      width: 25%;
+      margin-left: 60px;
+    }
+   .section .protfolio .line1
+   {
+     margin-left: 15px;
+   } 
+   .section .project .grid p,
+   .section .project .flex p
+   {   
+    padding-left: 55px;
+    font-size: 28px;
+     }
+  
+    .section .about p 
+    {  
+      font-size: 35px;
+      font-weight: 800;
+      padding-top: 60px;
+     }
+.section .about .line,
+.section .about .line1
+{  
+    margin-left: 85px;
+}
+.section .about .line1
+{
+    margin-left: 15px;
+}
+.section .about .under-about p
+{   
+    line-height: 25px;
+}
+.section .study .p1
+{   
+     font-size: 35px;
+}
+.section .study .line,
+.section .study .line1
+{
+    margin-left: 95px;
+}
+.section .study .line1
+{
+    margin-left: 15px;
+}
+.section .about .logo img
+{   
+    width: 100px ;
+    height: 100px;
+    margin-bottom: 50px;
+}
+.section .about .logo img:hover
+{   
+    width: 120px ;
+    height: 120px;
+}
+
+.footer .contact p
+{   
+    font-size: 28px;
+}
+.footer .contact .line,
+.footer .contact .line1
+{
+    width: 22%;
+    margin-left: 72px;
+}
+.footer .contact .line1
+{
+    margin-left: 15px;
+}
+
+.footer .contact .inp
+{  
+    margin: 10px auto;
+    width: 75%;
+    padding: 10px 5px;
+}
+
+.footer .contact .info .se
+{   
+    width: 30%;
+    margin-left: 50px;
+    padding: 12px 25px;
+}
+
+.footer .social .under-s2 .i
+{
+    margin: 35px 0px;
+}
+
+}
