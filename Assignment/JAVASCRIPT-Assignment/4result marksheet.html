@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Marks Sheet Result</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    #result {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Marks Sheet Result</h2>
+    1.C Language <input type="number" placeholder="Subject 1 marks" id="subject1">
+ 
+    <br>
+    2. C++ Language<input type="number" placeholder="Subject 2 marks" id="subject2">
+    
+    <br>
+   3.Database <input type="number" placeholder="Subject 3 marks" id="subject3">
+
+   <br>
+   4. HTML<input type="number" placeholder="Subject 4 marks" id="subject4">
+  
+   <br>
+   5.CSS <input type="number" placeholder="Subject 5 marks" id="subject5">
+   
+   <br>
+    6.PHP<input type="number" placeholder="Subject 6 marks" id="subject6">
+    
+    <br>
+    7.Core Java<input type="number" placeholder="Subject 7 marks" id="subject7">
+   
+    <br>
+    8.Java Script<input type="number" placeholder="Subject 8 marks" id="subject8">
+    
+    <br>
+    <button onclick="calculateResult()">Calculate Result</button>
+    <p id="result"></p>
+  </div>
+
+  <script>
+    function calculateResult() {
+      var subject1 = parseFloat(document.getElementById("subject1").value);
+      var subject2 = parseFloat(document.getElementById("subject2").value);
+      var subject3 = parseFloat(document.getElementById("subject3").value);
+      var subject4 = parseFloat(document.getElementById("subject4").value);
+      var subject5 = parseFloat(document.getElementById("subject5").value);
+      var subject6 = parseFloat(document.getElementById("subject6").value);
+      var subject7 = parseFloat(document.getElementById("subject7").value);
+      var subject8 = parseFloat(document.getElementById("subject8").value);
+
+      var totalMarks = subject1 + subject2 + subject3 + subject4 + subject5 + subject6 + subject7 + subject8;
+      var averageMarks = totalMarks / 8;
+      
+      var resultMessage = "Total Marks: " + totalMarks.toFixed(2) + "<br>" +
+                          "Average Marks: " + averageMarks.toFixed(2);
+
+      document.getElementById("result").innerHTML = resultMessage;
+    }
+  </script>
+</body>
+</html>
