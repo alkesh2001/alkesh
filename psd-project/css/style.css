@@ -1,0 +1,558 @@
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+.sub-header
+{
+     background: url(../img/Rectangle.png);
+     width: 100%;
+     padding-bottom: 260px;
+}
+.sub-header .navbar
+{
+     display: flex;
+     width: 100%;
+}
+.sub-header .navbar .logo,.info
+{
+     width: 50%;
+}
+.sub-header .navbar .logo img
+{
+     padding: 58px 0px 0px 84px;
+    
+}
+.sub-header .navbar .info .deli
+{
+     display: flex;
+     width: 100%;
+     justify-content: right;
+     padding: 62px  65px 0px 0px;
+}
+.sub-header .navbar .info .deli span
+{
+     padding-top: 6px;
+     font-size: 17px;
+     margin-left: 20px;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: bold;
+     color: #3d2514;
+}
+.sub-header .navbar .nav
+{
+     text-align: right;
+     padding: 26px 20px;
+     padding-right: 20px;
+}
+.sub-header .navbar .nav ul li
+{
+     display: inline;
+     font-size: 22px;
+      margin: 0px 50px 0px 20px;
+     font-family: 'Bebas Neue', sans-serif;
+     color: #3d2514;
+}
+.sub-header .navbar .nav ul li a
+{
+    text-decoration: none;
+    color: #3d2514;
+}
+
+.sub-header .burger .title
+{   
+     width: 100%;
+     padding-top: 177px;
+     padding-left: 60px ;
+     position: relative;
+}
+.sub-header .burger .title .its
+{
+     font-size: 24px;
+     border: 2px dashed #3d2514;
+     padding: 9px 18px;
+     font-family: 'Bebas Neue', sans-serif;
+     color: #3d2514;
+   
+}
+.sub-header .burger .title .under-title
+{   
+     margin-top: 20px;
+     font-size: 100px;
+     font-family: 'Alfa Slab One', cursive;
+     color: #3d2514;
+     text-shadow: 3px 3px 2px white;
+}
+.sub-header .burger .title .under-title-1
+{
+     font-size: 56px;
+     font-family: 'Alfa Slab One', cursive;
+     color: #3d2514;
+     text-shadow: 3px 3px 2px white;
+}
+.sub-header .burger .title .f-1
+{
+     position: absolute;
+      top: 140px;
+     right: 430px;
+} 
+.sub-header .burger .title .d-2
+{
+     position: absolute;
+     top: 78px;
+     right: 110px;
+}
+.sub-header .burger .title .b-3
+{
+     position: absolute;
+     top: 210px;
+     right: 182px;
+}
+.sub-header .burger .title .shadow
+{
+     position: absolute;
+     bottom: -155px;
+     right: 290px;
+     width: 200px;
+     height: 9px;
+     background: black;
+     border-radius: 50%;
+     filter: blur(5px);
+}
+.sub-header .burger .title .shadow-2
+{
+     position: absolute;
+     bottom: -140px;
+     right: 125px;
+     width: 140px;
+     height: 9px;
+     background: black;
+     border-radius: 50%;
+     filter: blur(6px);
+}
+.sub-header .burger .title .offer
+{   
+     position:absolute ;
+     top: 450px;
+     right: 535px;
+     height: 170px;
+     width: 170px;
+     border-radius: 50%;
+     background-color: #bf2222;
+     padding-top: 10px;
+}
+.sub-header .burger .title .offer .under-offer
+{   
+     margin: 0px auto;
+     height: 150px;
+     width: 150px;
+     border: 2px dashed white;
+     border-radius: 50%;
+     text-align: center;
+     padding-top: 10px;
+}
+.sub-header .burger .title .offer .under-offer p
+{   
+      font-size: 60px;
+     color: white;
+     font-family: 'Bebas Neue', sans-serif;
+}
+.sub-header .burger .title .offer .under-offer p span
+{
+      font-size: 30px;
+     font-family: 'Bebas Neue', sans-serif;
+}
+.sub-header .burger .title .offer .under-offer .only
+{
+     font-size: 33px;
+     font-family: 'Bebas Neue', sans-serif;
+}
+
+.header .main-header
+{
+     padding-top: 65px;
+     padding-bottom:25px;
+    
+}
+.header .last-header
+{
+      display: flex;
+      flex-wrap: wrap;
+     /* width:100%; */
+     padding-left: 55px;
+     padding-bottom:70px;
+}
+.header .last-header .last-header-1
+{  
+     width: 50%;
+     padding-left: 55px;
+     background: url(../img/main-1.png);
+     height:420px ;
+     width: 600px ;
+     background-repeat: no-repeat;
+}
+.header .last-header .last-header-1 
+{
+     padding: 30px 25px;
+     line-height: 35px;
+}
+.header .last-header .last-header-1 p,
+.header .last-header .last-header-2 .last-header-3 p,
+.header .last-header .last-header-2 .last-header-4 p
+{
+     font-size: 25px;
+     color: white;
+     font-family: 'Bebas Neue', sans-serif;
+}
+.header .last-header .last-header-1 .last-header-1-m,
+.header .last-header .last-header-2 .last-header-3 .last-header-3-m,
+.header .last-header .last-header-2 .last-header-4 .last-header-4-m
+{
+     font-size: 42px;
+     color: white;
+     font-family: 'Bebas Neue', sans-serif;
+}
+.header .last-header .last-header-2
+{
+     padding-left: 25px;
+     width: 50%;
+}
+.header .last-header .last-header-2 .last-header-3
+{
+     background: url(../img/Image.png);
+     margin-bottom: 33px;
+     height: 193px;
+     width: 600px ;
+     background-repeat: no-repeat;
+
+}
+.header .last-header .last-header-2 .last-header-4
+{
+     background: url(../img/Image\ \(1\).png);
+     height: 193px;
+     width: 600px ;
+     background-repeat: no-repeat;
+}
+.header .last-header .last-header-2 .last-header-3 ,
+.header .last-header .last-header-2 .last-header-4 
+{   
+     padding: 30px 30px;
+     line-height: 35px;
+}
+
+.main-header .always
+{
+     background-color: #ffbf45;
+     font-size: 25px;
+     padding: 10px 20px;
+     width: 219px;
+     margin: 0px auto;
+     font-family: 'Bebas Neue', sans-serif;
+     color: #3d2514;
+     text-align: center;
+}
+.section .choose 
+{
+     padding-top: 35px;
+     margin-bottom: 90px;
+}
+.section .choose .choose-1
+{
+     text-align: center;
+     width: 80%;
+     margin: 0px auto;
+}
+.section .choose .choose-1 p
+{
+     font-size: 17px;
+      line-height: 30px;
+     padding-top: 20px;
+     color: #3d2514;
+     font-family: 'Montserrat', sans-serif;
+}
+.section .choose .choose-1  span
+{    
+     font-size: 50px;
+     font-family: 'Alfa Slab One', cursive;
+     color: #3d2514;
+}
+.section .choose .choose-2
+{
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+     align-items: center;
+     justify-content: space-evenly;
+     padding-top: 70px;
+}
+.section .choose .choose-2 .choose-3,
+.section .choose .choose-2 .choose-4,
+.section .choose .choose-2 .choose-5
+{
+     position: relative;
+     width: 30%;
+     text-align: center;
+}
+
+.section .choose .choose-2 .choose-3 .choose-3-mn,
+.section .choose .choose-2 .choose-4 .choose-4-mn,
+.section .choose .choose-2 .choose-5 .choose-5-mn  
+{  
+     margin-bottom: 85px;
+}
+.section .choose .choose-2 .choose-4 .choose-4-mn  
+{  
+     margin-bottom: 54px;
+     margin-top: -40px;
+     margin-bottom: 92px;
+}
+.section .choose .choose-2 .choose-3 .choose-3-mn .shadow,
+.section .choose .choose-2 .choose-4 .choose-4-mn .shadow,
+.section .choose .choose-2 .choose-5 .choose-5-mn .shadow
+{   
+     position: absolute;
+     bottom: 220px;
+     left: 100px;
+     width: 200px;
+      height: 9px;
+     background: black;
+     border-radius: 50%;
+     filter: blur(5px);
+}
+.section .choose .choose-2 .choose-3 .choose-3-mn .shadow,
+.section .choose .choose-2 .choose-5 .choose-5-mn .shadow
+{   
+     bottom:  0px;
+     left: 130px;
+     bottom: 220px;
+}
+.section .choose .choose-2 .choose-3 p,
+.section .choose .choose-2 .choose-4 p,
+.section .choose .choose-2 .choose-5 p
+{
+     font-size: 17px;
+     font-family: 'Montserrat', sans-serif;
+     color: #3d2514;
+}
+.section .choose .choose-2 .choose-3 p,
+.section .choose .choose-2 .choose-5 p
+{
+    padding-left: 15px;
+}
+.section .choose .choose-2 .choose-5 p
+{
+     padding-left: 35px;
+}
+.section .choose .choose-2 .choose-3 .choose-3-p,
+.section .choose .choose-2 .choose-4 .choose-3-p,
+.section .choose .choose-2 .choose-5 .choose-3-p
+{
+     font-family: 'Bebas Neue', sans-serif;
+     font-size: 38px;
+}
+.section .choose .choose-2 .choose-3 a,
+.section .choose .choose-2 .choose-4 a,
+.section .choose .choose-2 .choose-5 a
+{
+     text-decoration: none;
+      color: aliceblue;
+     background-color: #bf2222;
+     padding: 18px 40px;
+     font-size: 17px;
+     font-family: 'Alfa Slab One', cursive;
+}
+.section .choose .choose-2 .choose-3 .oder-now,
+.section .choose .choose-2 .choose-4 .oder-now,
+.section .choose .choose-2 .choose-5 .oder-now
+{
+     margin-top: 40px;
+}
+
+.section .discover
+{  
+     display: flex;
+     flex-wrap: wrap;
+     margin: 70px 60px;
+     margin-top: 130px;
+     box-shadow: 10px 18px 20px rgba(0, 0, 0,0.2);
+}
+.section .discover .discover-1
+{
+     width: 40%;
+     padding-top: 40px;
+     padding-left: 40px
+}
+.section .discover .discover-2
+{
+     width: 60%;
+     padding: 18px 50px ;
+}
+.section .discover .discover-2 img
+{  
+     height: 440px;
+     width: 660px;
+}
+.section .discover .discover-1 .discover-mh
+{
+     font-size:29px ;
+     font-family: 'Bebas Neue', sans-serif;
+     color: #3d2514;
+}
+.section .discover .discover-1 .discover-sh
+{
+     font-size:38px ;
+     font-family: 'Alfa Slab One', cursive;
+     color: #3d2514;
+}
+.section .discover .discover-1 .discover-info
+{   
+     padding-top: 40px;
+     padding-right: 20px;
+     font-size: 21px;
+     font-family: 'Montserrat', sans-serif;
+     color: #3d3d3d;
+}
+.section .discover .discover-1 .option 
+{   
+     padding-top: 90px;
+}
+
+.section .reservation 
+{
+    text-align: center;
+    padding: 50px 0px;
+    padding-bottom: 40px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.section .reservation .r-1
+{
+    font-size: 29px;
+    font-family: 'Bebas Neue', sans-serif;
+     color: #3d2514;
+     padding-bottom: 5px;
+}
+.section .reservation .r-2
+{
+    font-size: 45px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+}
+.section .reservation .find
+{   
+    width: 50%; 
+    margin: 80px auto;
+}
+.section .reservation .find input
+{  
+    text-align: left;
+    margin: 10px 5px 20px 5px;
+    font-size: 21px;
+    padding: 9px 20px;
+    padding-right:80px;
+    font-family: 'Bebas Neue', sans-serif;
+    justify-content: space-between;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+.section .reservation .find .btn
+{
+    font-size: 21px;
+    padding: 9px 66px;
+    font-family: 'Alfa Slab One', cursive;
+    background-color: #bf2222;
+    color: white;
+    border: none;
+}
+
+.section .reservation .r-i-1
+{
+    position: absolute;
+    top: -30px;
+    left: -90px;
+}
+.section .reservation .r-i-2
+{
+    position: absolute;
+    top: 150px;
+    left: 130px;
+  
+}
+.section .reservation .r-i-3
+{  
+    height: 470px;
+    width: 470px;
+    position: absolute;
+    bottom: -100px;
+    right: -210px;
+}
+.footer .house
+{   
+    background: url(../img/footer-background.png);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    margin-bottom: 40px;
+    width: 95%;
+}
+.footer .house div
+{
+    width: 50%;
+}
+.footer .house .h-1 img
+{   
+
+    padding: 60px 40px;
+}
+.footer .house .h-1 .h-1-p
+{
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    color: #b1a8a0;
+    padding-right: 50px;
+    padding-left: 40px;
+}
+.footer .house .h-1 .h-1-c,
+.footer .house .copy .h-1-c-1
+{
+    font-size: 17px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #b1afaa;
+    padding-top: 100px;
+    padding-left: 40px;
+}
+.footer .house .copy .h-1-c-1
+{  
+      display: none;
+}
+.footer .house .h-2 
+{   
+   padding-top: 200px;
+}
+.footer .house .h-2 p
+{   
+    padding-bottom: 15px;
+    margin: 0px auto;
+    width: 50%;
+    color: white;
+    font-size: 21px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.footer .house .h-2 p i
+{
+    padding-right: 30px;
+}
+.footer .house .h-2 .h-2-i 
+{
+    text-align: right;
+    width: 100%;
+    padding-right: 30px;
+}
+.footer .house .h-2 .h-2-i i
+{  
+    padding-top:130px;
+    padding-right: 10px;
+}

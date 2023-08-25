@@ -1,0 +1,205 @@
+@media(max-width:500px)
+{    
+    .header .nav .infor .info,
+    .header .nav .infor .navbar 
+    {
+        display: none;
+    }
+    .header .subnav
+     {
+       display: block;
+       border: none;
+    }
+    .header .nav 
+    {  
+        grid-template-columns: 1fr;
+        padding-bottom: 10px;
+    }
+    .header .slide .villa
+    {
+        display: none;
+    }
+    .header .slide 
+    {
+         background-size: cover;
+         background-repeat: no-repeat; 
+         background-position: center;       
+    }
+    .header .slide .under-slide
+    {
+      padding-left: 0px;
+    }
+    
+    .header .slide .quick
+    {   
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .header .search 
+    {
+        grid-template-columns: 1fr 1fr;
+        padding: 40px 28px;
+    }
+    .header .search .location .loc select,
+    .header .search .property select,
+    .header .search .pro select,
+    .header .search .keyword select
+    {
+       padding: 10px 70px;
+       margin: 5px 0px;
+    }
+    .header .search .location .loc input,
+    .header .search .property input,
+     .header .search .pro input,
+    .header .search .keyword  input
+    {
+       padding: 10px 27px;
+       margin: 5px 0px;
+    }  
+    .header .search .keyword .sea a
+    {
+        padding: 10px 73px;
+        margin-left: 0px;
+    }
+    .look
+    {
+        
+    }
+    .section .deal .best
+     {
+       width: 100%;
+       padding: 10px 0px; 
+       margin-bottom: 0px;
+     } 
+     .section .deal .best p
+     {
+     padding: 10px 20px;
+     }
+    .section .deal .home 
+    {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .section .deal .home .home-1,
+    .section .deal .home .home-2,
+    .section .deal .home .home-3  
+     {
+       width: 90%;
+       margin: 0px auto ;
+       margin-top: 50px;
+     }
+     .section .feature .fp
+     {
+        margin: 35px 0px 40px 25px;
+     }
+     .section .feature .Properties
+     {
+        grid-template-columns: 1fr ;
+     }
+     .section .feature .Properties .pro
+     {
+        grid-template-columns:  1fr;
+        grid-template-rows: 1fr ;
+        width: 100%;
+        margin: 20px auto;
+     }
+
+     .section .feature .Properties .pro .im,
+     .section .feature .Properties .pro .im2,
+     .section .feature .Properties .pro .im3,
+     .section .feature .Properties .pro .im4
+     {
+        width: 100%;
+        height: 300px;
+     }
+     .section .welcome
+     {
+        background-position: center ;
+        background-size: cover;
+     }
+
+     .section .welcome .underwel
+     {
+        width: 100%;
+        padding: 5px 25px;
+     }
+     .section .welcome .register
+     {
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding: 0px 25px;
+     }
+     .section .welcome .register .icon
+     {
+       margin: 13px 0px;
+     }
+     .section .welcome .sub a
+     {
+        font-size: 15px;
+        padding: 18px 20px;
+     }
+
+     .section .letest p
+       {
+         padding: 60px 50px 50px 40px;
+         font-size: 23px;
+    }
+     .section .letest .format
+     {
+      grid-template-columns: 1fr;
+      width: 100%;
+     }
+     .section .letest .format .format1,
+     .section .letest .format .format2 
+      {
+        display: grid;
+         width: 85%;
+         margin: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+     }
+     .section .letest .format .format1 .informat,
+     .section .letest .format .format2 .informat 
+     {
+        height: 300px;
+     }
+     .section .letest .format .format1 .informat1,
+     .section .letest .format .format2 .informat1 
+      { 
+         padding-bottom: -50px;
+       margin-left: 10px;
+       margin-top: 30px;
+      }
+      .section .we-are 
+      {    
+            padding-bottom: 30px;
+      }
+      .section .we-are p
+      {
+         margin-top: -60px;
+         padding-bottom: 25px;
+         width: 100%;
+         line-height: 35px;
+      }
+      .section .we-are .partner
+       { 
+       width:100%;
+       margin: 0px auto;
+       padding-left: 35px;
+       } 
+      .section .we-are .partner  li img
+       {    
+          padding:  0px 20px 15px 10px;
+       }
+      
+      .footer .under-footer
+       {
+       grid-template-columns:1fr;
+       }
+      .footer .under-footer .f-1 
+       {
+          padding-top: 0px;
+          padding-left:0px;
+       }
+}

@@ -65,7 +65,7 @@
 }
 .header .main-head .img
 {  
-     background: url(/img/avataaars.svg);
+     background: url(../img/avataaars.svg);
      background-repeat: no-repeat;
      background-position: center;
      height: 240px;
