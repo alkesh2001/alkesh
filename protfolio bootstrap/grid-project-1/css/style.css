@@ -1,0 +1,709 @@
+*{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      /* border: 2px solid; */
+}
+body
+{
+      font-family: 'Ubuntu', sans-serif;
+}
+.header .nav
+{
+      display: grid;
+      grid-template-columns: 300px 3fr;   
+      background-color: #191c20;
+}
+.header .subnav 
+{
+      background-color: rgb(0, 0, 0);
+       border: 2px solid;
+      padding: 10px 10px;
+      color: white;
+      display: none;
+}
+.header .nav .logo
+{
+      text-align: center;
+}
+.header .nav .logo .img
+{  
+      text-align: center;
+      margin-top: 25px;
+}
+.header .nav .logo p
+{
+      text-align:center;
+      margin-left: 40px;
+      color: #737a84;
+      font-size: 13px
+}
+.header .nav .infor
+{
+      grid-template-rows: 1fr 1fr;
+}
+.header .nav .infor .info ul li
+{
+      display: inline;
+       margin: 0px 10px;
+      font-size: 13px;
+      color: #737a84;
+}
+.header .nav .infor .info ul li i
+{  
+      margin-right: 10px;
+}
+.info
+{    
+      margin-top: 30px;
+      color: white;
+      text-align: right;
+      margin-right: 50px;
+}
+.header .nav .infor .navbar
+{   
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+      margin-top: 35px;
+}
+.header .nav .infor .navbar div
+{
+      padding: 15px;
+      text-align: center;  
+      color: white;
+}
+
+.header .nav .infor .navbar div:hover
+{
+      background-color: #50b848;
+}
+.header .nav .infor .navbar p
+{
+      color: white;
+      padding: 15px 15px;
+      color: #0DBAE8;
+      font-size: 18px;
+}
+.header .slide
+{    
+      background: url(../img/slide-2.jpg);
+      background-size:cover;
+      background-position: center; 
+}
+.header .slide .under-slide 
+{
+      display: grid;
+      justify-content: center;
+      padding: 160px 0px;
+      padding-left: 750px;
+
+}
+.header .slide .villa
+{   
+      background-color: rgba(255,255,255,0.9);
+      width: 80%;
+      margin-top: 70px;
+      padding: 30px 20px;
+}
+.header .slide .villa h3,
+.header .slide .villa p
+{  
+      font-size: 15px;
+      padding: 10px 5px;
+}  
+.header .slide .villa #p
+{   
+      color: #50b848;
+      font-size: 19px;
+}
+.header .slide .villa #villa-p
+{    
+       color: #929BA7;
+}
+.header .slide .villa p a
+{
+      font-size: 18px;
+      padding: 8px 21px;
+      color: white;
+      text-decoration: none;
+      background-color: #0dbae8;
+}
+.header .slide .quick
+{   
+      display: inline-block;
+      margin-top: 60px;
+      margin-left: 80px;
+}
+.header .slide .quick h3
+{   
+      background-color: #0dbae8;
+      color: white;
+      padding: 15px 30px;
+} 
+.header .search 
+{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      padding: 40px 100px;
+      background-color: #dee7ee;
+}
+.header .search .location
+{   
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr ;
+
+}
+.header .search .location .loc
+{
+   
+}
+.header .search .location .loc select,
+.header .search .property select,
+.header .search .pro select,
+.header .search .keyword select
+{
+      padding: 10px 90px;
+      margin: 5px 10px;
+      border: none;
+}
+
+.header .search .location .loc input,
+.header .search .property input,
+.header .search .pro input,
+.header .search .keyword  input
+{
+      padding: 10px 47px;
+      font-size: 14px;
+      margin: 5px 10px;
+      border: none;
+      /* outline: none; */
+
+}
+
+select:focus
+{
+  outline: none;
+}
+.header .search .keyword .sea a
+{
+      text-align: center;
+      padding: 10px 93px;
+      color: white;
+      background-color: #191c20;
+      text-decoration: none;
+      margin-left: 11px;
+   
+}
+.header .search .keyword .sea 
+{
+      margin-top:15px ;
+}
+.header .search .keyword .sea a:hover
+{
+      background-color:#0dbae8 ;
+      transition: 0.2s;
+}
+
+.search .look
+{ 
+      margin-top: 20px;
+      margin-left: 2px;
+      display: inline;
+}
+.search .look i
+{
+      padding-right: 0px;
+      padding-left: 5px;
+}
+.search .look a
+{
+      text-decoration: none;
+      font-size: 15px;
+      color: #4A525D;
+}
+.search .look a:hover
+{
+      color: black;
+}
+.section .deal .best
+{
+     width: 75%;
+     text-align: center; 
+     margin: 50px auto;
+     margin-top: 70px;
+} 
+.section .deal .best p
+{
+     font-size: 15px;
+     margin-top: 25px;
+}
+.section .deal .home
+{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     width: 85%;
+     margin: auto;
+     margin-bottom: 90px;
+}
+.section .deal .home .home-1,
+.section .deal .home .home-2,
+.section .deal .home .home-3
+{
+      width: 90%;
+}
+.section .deal .home .home-1 .merrick
+{
+      background: url(../img/property-1-850x570.jpg);
+      height: 250px;
+      width: 100%;
+      background-position: center;
+      background-size: cover;
+}
+
+.section .deal .home .home-2 .coral
+{
+      background: url(../img/property-12-850x570.jpg);
+      height: 250px;
+      width: 100%;
+      background-position: center;
+      background-size: cover;
+}
+.section .deal .home .home-3 .street
+{
+      background: url(../img/property-10-850x570.jpg);
+      height: 250px;
+      width: 100%;
+      background-position: center;
+      background-size: cover;
+}
+.section .deal .home .home-1 .one,
+.section .deal .home .home-2 .one,
+.section .deal .home .home-3 .one
+{
+     padding: 10px 25px;
+     border: 1px solid rgb(206, 206, 206);
+}
+.section .deal .home .home-1 .one .p1,
+.section .deal .home .home-2 .one .p1,
+.section .deal .home .home-3 .one .p1
+{
+      margin: 12px 0px;
+      font-size: 20px;
+      color: black;
+}
+.section .deal .home .home-1 .one span,
+.section .deal .home .home-2 .one span,
+.section .deal .home .home-3 .one span
+{ 
+      color: #50B848;
+      font-size: 17px;
+}
+
+.section .deal .home .home-1 .one p,
+.section .deal .home .home-2 .one p,
+.section .deal .home .home-3 .one p
+{
+     font-size: 14px;
+     margin: 15px 0px;
+     color: #929BA7;
+}
+.section .deal .home .home-1 .sq,
+.section .deal .home .home-2 .sq,
+.section .deal .home .home-3 .sq
+{
+      padding: 12px 25px;
+      font-size: 13px;
+      border: 1px solid rgb(206, 206, 206);
+      border-top: none;
+      color: #929BA7;
+      background-color: #F7F8FA;
+}
+.section .deal .home .home-1 .sq p span,
+.section .deal .home .home-2 .sq p span,
+.section .deal .home .home-3 .sq p span
+{    
+      font-size: 14px;
+      color: #0DBAE8;
+}
+.section .feature
+{
+      background-color: #E9EDF1;
+      padding: 20px 0px;
+}
+.section .feature .fp
+{     
+      margin: 0px 90px;
+      font-size: 25px;
+      margin-top: 35px;
+
+}
+
+.section .feature .Properties
+{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
+     width: 90%;
+     margin: auto;
+     margin-top: 15px;
+     margin-bottom: 50px;
+}
+.section .feature .Properties .pro
+{    
+       display: grid;
+       grid-template-columns:  1fr 2fr;
+       margin: 20px 20px;
+       background-color: white;
+}
+
+.section .feature .Properties .pro .im
+{
+   background: url(../img/property-1-850x570.jpg);
+   width: 225px;
+   height: 100%;
+   background-size: 120% 120%;
+   background-position: center;
+}
+.section .feature .Properties .pro .im2
+{
+   background: url(../img/property-12-850x570.jpg);
+   width: 225px;
+   height: 100%;
+   background-size: 120% 120%;
+   background-position: center;
+}
+.section .feature .Properties .pro .im3
+{
+   background: url(../img/property-2-660x600.jpg);
+   width: 225px;
+   height: 100%;
+   background-size: 120% 120%;
+   background-position: center;
+}
+.section .feature .Properties .pro .im4
+{
+   background: url(../img/property-3-660x600.jpg);
+   width: 225px;
+   height: 100%;
+   background-size: 120% 120%;
+   background-position: center;
+}
+.section .feature .Properties .pro .im:hover,
+.section .feature .Properties .pro .im2:hover,
+.section .feature .Properties .pro .im3:hover,
+.section .feature .Properties .pro .im4:hover
+{
+      background-size: 100% 100%;
+      transition: 0.3s;
+}
+.section .feature .Properties .pro .price p 
+{
+      padding-top: 30px;
+}
+.section .feature .Properties .pro .price p a
+{
+      text-decoration: none;
+      font-size: 20px;
+      color: rgb(65, 65, 65);
+      padding: 10px 30px ;
+}
+.section .feature .Properties .pro .price p a:hover
+{
+      color: #0DBAE8;
+}
+.section .feature .Properties .pro .price .pr
+{
+      font-size: 17px;
+      color: #0DBAE8;
+      padding: 18px 30px 10px 30px;
+}
+.section .feature .Properties .pro .price .p
+{
+      font-size: 17px;
+      color: #929BA7; 
+      padding: 10px 30px 20px 30px;
+}
+
+.section .feature .Properties .pro .price .size
+{
+      background-color: #f3f5f5;
+      margin: 0px 0px;
+      padding: 12px 30px;
+      color: #929BA7;
+      font-size: 13px;
+}
+.section .feature .Properties .pro .price .size span
+{
+      color: #50B848;
+}
+
+.section .welcome
+{
+   background:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../img/hiw-bg.jpg);
+   padding-top: 100px;  
+   padding-bottom: 100px;  
+   width: 100%;
+}
+.section .welcome .underwel
+{
+      width: 85%;
+      margin: 0px auto;
+}
+
+.section .welcome .underwel h2
+{
+      margin: 0px 0px 20px 30px;
+      color: white;
+}
+.section .welcome .underwel h1
+{
+      margin: 20px 0px 20px 30px;
+      color: white;
+}
+.section .welcome .underwel p
+{
+     margin: 30px 0px 10px 30px;
+     font-size: 16px;
+     color: #b3b6bb;
+}
+.section .welcome .register
+{
+      display: grid;
+      width: 85%;
+      margin: auto;   
+      grid-template-columns: 1fr 1fr 1fr;  
+      margin-top: 50px;
+}
+.section .welcome .register .icon
+{
+      padding: 5px 30px;
+}
+.section .welcome .register h2
+{
+      margin: 20px 0px;
+       color: #50B848; 
+}
+.section .welcome .register p
+{
+      margin: 5px 0px ;
+      font-size: 15px;   
+      color: #b3b6bb;
+}
+.section .welcome .sub
+{     
+      margin: 50px auto;
+      margin-bottom: -25px;
+      text-align: center;
+      padding: 20px 20px ;  
+
+}
+.section .welcome .sub a
+{
+      text-decoration: none;
+      padding: 20px 35px;
+      font-size: 18px;
+      color:white ;
+      background-color: #50B848;
+}
+.section .welcome .sub a:hover
+{
+      background-color: #4da846;
+}
+.section .letest 
+{
+   /* height: 650px; */
+   width: 100%;
+   margin: auto;
+   background-color: gray;
+   background-color: #f0f3f8;
+}
+.section .letest p
+{
+    padding: 50px 50px 50px 130px;
+    font-size: 23px;
+}
+.section .letest .format
+{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 80%;
+      margin: 0px auto;
+}
+.section .letest .format .format1 
+{
+      display: grid;
+      width: 95%;
+      grid-template-columns: 1.8fr 2fr;
+}
+
+.section .letest .format .format2
+{
+      display: grid;
+      width: 95%;
+      grid-template-columns: 1.8fr 2fr;
+}
+.section .letest .format .format1 .informat
+
+{
+
+      background: url(../img/slide-2.jpg);
+      background-position: center ;
+      background-size:cover;
+}
+.section .letest .format .format2 .informat
+{
+      background: url(../img/news-post-3-660x600.jpg);
+      background-position: center ;
+      background-size:cover;
+}
+
+.section .letest .format .format1 .informat1,
+.section .letest .format .format2 .informat1
+{
+      margin-left: 20px;
+}
+.section .letest .format .format1 .informat1 h3,
+.section .letest .format .format2 .informat1 h3
+{
+      padding: 0px;
+}
+.section .letest .format .format1 .informat1 p,
+.section .letest .format .format2 .informat1 p
+{
+      padding: 8px 0px;
+      margin: 0;
+      font-size: 15px;
+}
+.section .letest .format .format1 .informat1 span a,
+#more span a,
+.section .letest .format .format2 .informat1 span a,
+#more span a
+{
+    font-size: 14px;
+    text-decoration: none;
+    color: #0DBAE8;
+    border: none;
+}
+#more span a i
+{
+      font-size: 14px;
+      color: #0DBAE8;
+      padding: 0px 5px;
+}
+.section .letest .format .format1 .informat1 span a:hover,
+#more a:hover,
+.section .letest .format .format2 .informat1 span a:hover,
+#more a:hover
+{
+      color: #4da846;
+}
+.section .we-are 
+{    
+      text-align: center;
+}
+.section .we-are p
+{    
+      padding-bottom: 25px;
+      margin-top: 30px;
+      font-size: 25px;
+}
+.section .we-are  span
+{
+      color: #0dbae8;
+}
+.section .we-are .partner
+{ 
+      width:80%;
+      margin: 10px auto;
+      padding-left: 65px;
+}
+.section .we-are .partner  li
+{
+      display: inline;
+}
+.section .we-are .partner  li img
+{    
+      padding: 5px 20px 15px 10px;
+}
+
+.footer
+{   
+      padding: 50px 0px;
+      background-color: #4A525D;
+}
+.footer .under-footer
+{
+      width: 90%;
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+      margin: 10px auto;
+}
+.footer .under-footer .f-1 
+{    padding-top: 30px;
+      padding-left:30px;
+}
+.footer .under-footer .f-1 img
+{    
+      width: 150px;
+      height: 80px;
+}
+.footer .under-footer .f-1 p
+{
+   margin-top: 10px;
+   font-size: 15px;
+   color: white;
+}
+.footer .under-footer .f-1 p span
+{
+      margin-left: 10px;
+      color: #929BA7;
+}
+
+.footer .under-footer .f-2 p,
+.footer .under-footer .f-3 p,
+.footer .under-footer .f-4 p,
+.footer .under-footer .f-5 p
+{
+      padding-top: 30px;
+      padding-bottom: 20px;
+      color: white;
+}
+.footer .under-footer .f-2 ul li,
+.footer .under-footer .f-3 ul li,
+.footer .under-footer .f-4 ul li
+{    
+      /* padding-left: 0px; */
+      display: block;
+      text-decoration: none;
+      line-height: 30px;
+      color: #929BA7;
+      font-size: 14px;
+}
+.footer .under-footer .f-2 ul li:hover,
+.footer .under-footer .f-3 ul li:hover,
+.footer .under-footer .f-4 ul li:hover
+{
+   color: white;
+}
+.footer .under-footer .f-2 ul li span,
+.footer .under-footer .f-3 ul li span,
+.footer .under-footer .f-4 ul li span,
+.footer .under-footer .f-5 ul li span
+{    
+  color: white;
+}
+.footer .under-footer .f-5 ul li 
+{
+      display: block;
+      text-decoration: none;
+}
+.footer .under-footer .f-5 ul li i
+{
+      margin-right: 8px;
+      
+}
+.ul-1
+{ 
+      margin-top: 5px;
+      margin-left: 12px;
+}
