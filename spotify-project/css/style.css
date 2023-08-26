@@ -14,17 +14,24 @@
 .search-icon{
     fill: #c7c7c7; /* Change this to the color you want */
 }
-.right-arrow-svg path {
+.right-arrow-svg path
+{
     fill: rgb(254, 254, 254);
-  }
+}
+.app,
+.explore
+{
+    font-size: 14px;
+}
+
 .explore:hover
 {
     background-color: #f5f5f5 !important;
-    transform: scale(1.03) ;
+    transform: scale(1.04) ;
 }
 .app:hover
 {
-    transform: scale(1.03) ;
+    transform: scale(1.04) ;
 }
 .right-arrow-svg-round 
 {
@@ -41,21 +48,40 @@
 }
 .library
 {
-    color: rgb(126, 126, 126);
+    color: #b3b3b3;
 }
-.recents
-{
-   
+.tik
+{   
+    color: #1ed760;
+    fill: #1ed760;
 }
 .Sort .Sort-by
 {
     font-size: 11px;
 }
-.option:hover
+.dropdown-menu p a
 {
-     background-color: #c7c7c7;
+     font-size:0.8125rem ;
+}
+
+.dropdown-menu p:hover 
+{
+     background-color: #3b3b3b;
 }
 .music
 {
     font-size: 14px;
+    color: #aeaeae;
+}
+.hkm
+{
+    font-size: 13px;
+}
+.recent-1 
+{
+    background-color: rgb(26, 26, 26);
+}
+.recent-1:hover 
+{
+    background-color: #282828 !important;
 }
